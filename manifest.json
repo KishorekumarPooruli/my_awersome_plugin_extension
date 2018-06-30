@@ -1,14 +1,14 @@
 {
     "manifest_version": 2,
-   "name" : "my-awersome-plugin",
-    "description" : "just another super awersome plugin",
+    "name" : "my-awersome-plugin",
+    "description" : "just another super awersome plugin ",
     "version": "1.0",
       "background": {
         "page": "background.html"
     },
      "browser_action" : {
-     "popup" : "popup.html",
-     "default_icon" : "logo.png"
+     "default_icon" : "logo.png",
+     "default_popup" : "popup.html"
     },
     "permissions" : ["notifications"]
     }
